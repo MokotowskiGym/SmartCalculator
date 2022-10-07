@@ -1,0 +1,32 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    class MyClass:
+        n_objects = 0
+
+        def __new(self):
+            if cls.n_objects < 5:
+                cls.n_objects += 1
+                return object.__new__(cls)
+            return None
+
+        def __str__(self):
+            print("")
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7143#comment
+status: Failed
+feedback:
+  message: |
+    Failed. Runtime error
+
+    Error:
+    Traceback (most recent call last):
+      File "jailed_code", line 13, in <module>
+        _x1 = MyClass()
+      File "jailed_code", line 5, in __new__
+        if cls.n_objects < 5:
+    NameError: name 'cls' is not defined
+  time: Thu, 06 Oct 2022 07:32:47 UTC
+record: -1

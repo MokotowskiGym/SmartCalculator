@@ -1,0 +1,27 @@
+content:
+- Multi-line programs
+- While loop
+- Quotes and multi-line strings
+- Indexes
+- Split and join
+- Set
+- How to choose a collection to use
+- Else statement
+- Loop control statements
+- List comprehension
+- Operations with list
+- Load module
+- Search in a string
+- Scopes
+- Class
+- Class instances
+- String formatting
+- Methods
+- Methods and attributes
+- Magic methods
+- Built-in exceptions
+- Exception handling
+- Inheritance in Python
+- Method overriding
+- User-defined exceptions
+- Assert statement

@@ -1,0 +1,29 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    def check_integer(num):
+        ...
+
+    def error_handling(num):
+        ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10224#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 6. Wrong answer
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    8
+    Correct output:
+    There is an error!
+
+    Your code output:
+    There is an error!
+    There is an error!
+  time: Fri, 07 Oct 2022 10:12:55 UTC
+record: -1

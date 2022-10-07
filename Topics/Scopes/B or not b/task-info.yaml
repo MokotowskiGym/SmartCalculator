@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: The code will execute without errors. <code>3</code> will be printed
+- text: The code will execute without errors. Nothing will be printed after the execution
+- text: '<code>NameError: name ''b'' is not defined</code> will occur because <code>b</code>
+    isn''t defined at the global level'
+- text: '<code>UnboundLocalError: local variable ''b'' referenced before assignment</code>
+    will occur because the interpreter cannot resolve <code>b</code>'
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/21642#comment
+status: Unchecked
+record: -1
+custom_name: B or not b?
+local_check: false
